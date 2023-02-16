@@ -1,0 +1,49 @@
+body{
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+.container{
+    background: rgb(177, 204, 122);
+    padding:20px;
+    margin-top:20px;
+    border-radius:10px;
+}
+h1{
+    top: -30px;
+    position: relative;
+
+}
+.buttons{
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center; 
+}
+button{
+    padding:10px;
+    display:flex;
+    font-size: 17px;
+    border-radius: 5px;
+    background:rgb(232, 227, 227);
+}
+#increasebtn{
+    left: -5px;
+    position: relative;
+}
+
+#decreasebtn{
+    left:5px;
+    position: relative;
+}
+
+#count{
+    padding: 20px;
+    position: absolute;
+    margin-top: 20px;
+    font-size: 30px;
+    margin-top: -94px;
+    margin-left: 4px;
+}
